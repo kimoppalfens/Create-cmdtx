@@ -1,0 +1,18 @@
+<AppMgmtDigest xmlns="http://schemas.microsoft.com/SystemCenterConfigurationManager/2009/AppMgmtDigest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HostingTechnology AuthoringScopeId="GLOBAL" LogicalName="RdpHostingTechnology" HostingId="Rdp" AssemblySuffix="Rdp" Version="1">
+    <Requirements>
+      <Rule id="Rule_63d22cd6-7f11-4769-8900-9c0ff5c177c5" Severity="None">
+        <Annotation>
+          <DisplayName Text="Operating System" />
+          <Description Text="" />
+        </Annotation>
+        <OperatingSystemExpression>
+          <Operator>OneOf</Operator>
+          <Operands>
+            <RuleExpression RuleId="Windows/All_Windows_Client_Server" />
+          </Operands>
+        </OperatingSystemExpression>
+      </Rule>
+    </Requirements>
+  </HostingTechnology>
+</AppMgmtDigest>

@@ -1,0 +1,6 @@
+<AppMgmtDigest xmlns="http://schemas.microsoft.com/SystemCenterConfigurationManager/2009/AppMgmtDigest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DeploymentTechnology AuthoringScopeId="GLOBAL" LogicalName="RdpDeploymentTechnology" TechnologyId="Rdp" AssemblySuffix="Rdp" Version="1">
+    <HostingTechnology>GLOBAL/RdpHostingTechnology</HostingTechnology>
+    <InstallerTechnology>GLOBAL/RdpInstallerTechnology</InstallerTechnology>
+  </DeploymentTechnology>
+</AppMgmtDigest>
